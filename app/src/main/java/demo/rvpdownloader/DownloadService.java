@@ -46,7 +46,7 @@ public class DownloadService extends Service {
         }
         return super.onStartCommand(intent, flags, startId);
     }
-    
+
 
     private void ondownload() {
         if(URLUtil.isValidUrl(value)) {
